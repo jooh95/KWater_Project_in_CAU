@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="8dp"
+    android:columnCount="3"
+    android:rowCount="2">
+
+    <TextView
+        android:id="@+id/bound"
+        android:layout_width="wrap_content"
+        android:layout_column="1"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="0"
+        android:paddingLeft="8dp"
+        android:text="LowerBound ~ UpperBound" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="80dp"
+        android:layout_column="0"
+        android:layout_marginRight="4dp"
+        android:layout_row="1"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="Description" />
+
+    <LinearLayout
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginRight="4dp"
+        android:layout_row="1"
+        android:background="@drawable/rounded_border"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="CurrentValue"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="4dp"
+            android:text="Unit" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/flag"
+        android:layout_width="32dp"
+        android:layout_column="2"
+        android:layout_row="1"
+        android:background="@drawable/rounded_border"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:text="Flag"
+        android:textAlignment="center" />
+</GridLayout>

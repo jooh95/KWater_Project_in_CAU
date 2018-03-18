@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_enabled="false" >
+        <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:drawable="@drawable/box_disabled" />
+            <item android:drawable="@drawable/ic_arrow_drop_down_disabled"
+                android:gravity="center_vertical|right"/>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:drawable="@drawable/box_default" />
+            <item android:drawable="@drawable/ic_arrow_drop_down_default"
+                android:gravity="center_vertical|right"/>
+        </layer-list>
+    </item>
+</selector>

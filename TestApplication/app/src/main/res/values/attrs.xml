@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CriteriaView">
+        <attr name="bound" format="reference|string" />
+        <attr name="desc" format="reference|string" />
+        <attr name="value" format="reference|string" />
+        <attr name="unit" format="reference|string" />
+        <attr name="flag" format="reference|string" />
+    </declare-styleable>
+</resources>
